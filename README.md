@@ -1,20 +1,20 @@
-# Soft Neck Demo
+# Soft Neck Robot
+This repository contains my Master Thesis project, in which I had to control the bending of a **Soft Neck Articulation** through the feedback of a **Soft TPU/CB Flexible Sensor**.
 
-
-
-
-The Soft Neck requires the multimeter or the Arduino, according to the chosen code.
-
-**Robotics Lab at Universidad Carlos III de Madrid <https://softroboticslab.gitlab.io/website/index.html>**
+The research has been held at the **Robotics Lab** at **Universidad Carlos III de Madrid**: <https://softroboticslab.gitlab.io/website/index.html>
 
 <img width="1041" height="470" alt="neck3D" src="https://github.com/user-attachments/assets/5dbd9328-31aa-4bd5-a425-609f44e81967" />
 
 
+
+*The Soft Sensor requires the multimeter or the Arduino in order to be sensed, according to the chosen code.*
+
 ## Multimeter
 ### Multimeter Setup
-1. Press Power On
-2. Switch to "Four-Wires Mode": a) Press Shift and then b) Press 4W
-
+1. To connect the multimeter, check the presence of the code `multimeter_communicationLinux.cpp` in the *Soft_neck_Soft_sensor/main* folder: this code is compatible with every OS since it is based on the SerialComm.h library.
+2. Press Power On
+3. Switch to "Four-Wires Mode": a) Press Shift and then b) Press 4W
+   
 <img width="1280" height="616" alt="multimeterHP" src="https://github.com/user-attachments/assets/3a3e9f02-f525-4f30-9102-3cf902a60701" />
 
 
