@@ -1,0 +1,28 @@
+/*
+
+
+// almost 3cycles circonferences, all with an amplitude of 45 degrees and hertz frequency of sinFreq=0.2 Hz
+    //  (2.5cycles because the first half cycle is not a circonference) 785398
+
+    double sinFreq = 0.05308;
+    double zeroDuration = 1/(4*sinFreq);
+
+    std::vector<double> target_p;
+    referenceSinusoidal(target_p, dts, 0.5, sinFreq, 3);
+    target_pitch.insert(target_pitch.end(), target_p.begin(), target_p.end());
+
+    std::vector<double> target_p1;
+    referenceStep(target_p1, dts, 0.0, zeroDuration);
+    target_pitch.insert(target_pitch.end(), target_p1.begin(), target_p1.end());
+
+
+    std::vector<double> target_r;
+    referenceStep(target_r, dts, 0.0, zeroDuration);
+    target_roll.insert(target_roll.end(), target_r.begin(), target_r.end());
+
+    std::vector<double> target_r1;
+    referenceSinusoidal(target_r1, dts, 0.5, sinFreq, 3);
+    target_roll.insert(target_roll.end(), target_r1.begin(), target_r1.end());
+
+
+*/
