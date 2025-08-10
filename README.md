@@ -1,4 +1,4 @@
-# Soft Neck Robot
+# 🤖Soft Neck Robot
 This repository contains my Master Thesis project, in which I had to control the bending of a **Soft Neck Articulation** through the feedback of a **Soft TPU/CB Flexible Sensor**.
 
 The research has been held at the **Robotics Lab** at **Universidad Carlos III de Madrid**: <https://softroboticslab.gitlab.io/website/index.html>
